@@ -8,3 +8,12 @@ h1 {
   letter-spacing: 5px; /* Расстояние между буквами */
   margin-top: 50px; /* Отступ сверху */
 }
+body {
+  background-image: url('https://www.electronic-sirens.com/ru/wp-content/uploads/sites/8/2021/09/Yest-li-zvuk-v-kosmose-.jpg'); /* Ссылка на картинку */
+  background-size: cover; /* Изображение растягивается на весь экран */
+  background-position: center center; /* Центрируем картинку */
+  background-attachment: fixed; /* Фиксируем фон при прокрутке */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
