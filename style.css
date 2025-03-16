@@ -1,30 +1,36 @@
-/* Стили для заголовка */
-h1 {
-  color: white;  /* Белый цвет текста */
-  text-align: center;  /* Выравнивание по центру */
-  font-family: 'Arial', sans-serif;  /* Шрифт Arial */
-  font-size: 4rem;  /* Размер шрифта */
-  text-transform: uppercase;  /* Все буквы заглавные */
-  letter-spacing: 5px;  /* Расстояние между буквами */
-  margin-top: 50px;  /* Отступ сверху */
-}
-
-/* Стили для фона страницы */
+/* Убираем отступы */
 body {
-  background-image: url('https://www.electronic-sirens.com/ru/wp-content/uploads/sites/8/2021/09/Yest-li-zvuk-v-kosmose-.jpg');  /* Фон-изображение */
-  background-size: cover;  /* Изображение растягивается на весь экран */
-  background-position: center center;  /* Центрируем картинку */
-  background-attachment: fixed;  /* Фиксируем фон при прокрутке */
-  font-family: Arial, sans-serif;  /* Шрифт Arial */
-  margin: 0;  /* Убираем стандартные отступы */
-  padding: 0;  /* Убираем стандартные отступы */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('https://www.electronic-sirens.com/ru/wp-content/uploads/sites/8/2021/09/Yest-li-zvuk-v-kosmose-.jpg'); /* Фон */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-/* Стили для картинки */
-.my-image {
-  width: 100px;  /* Уменьшаем ширину картинки */
-  height: auto;  /* Пропорциональная высота */
-  position: absolute;  /* Абсолютное позиционирование */
-  left: 20px;  /* Отступ от левого края */
-  top: 40%;  /* Отступ от верхнего края: 40% от высоты экрана (чуть выше середины) */
+/* Заголовок по центру */
+h1 {
+  color: black;  /* Черный цвет текста */
+  font-size: 3rem;  /* Размер шрифта */
+  margin-top: 50px; /* Отступ сверху */
+  text-transform: uppercase; /* Все буквы заглавные */
+}
+
+/* Блок с текстом справа */
+.info-box {
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  right: 20px;  /* Отступ справа */
+  text-align: right;
+  background: rgba(255, 255, 255, 0.7); /* Белый фон с прозрачностью */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.info-box p {
+  margin: 5px 0;
+  font-size: 1rem;
 }
