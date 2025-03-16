@@ -1,6 +1,6 @@
 /* Стили для заголовка */
 h1 {
-  color: #3498db; /* Зеленый цвет текста */
+  color: white; /* Белый цвет текста */
   text-align: center; /* Выравнивание по центру */
   font-family: 'Arial', sans-serif; /* Шрифт Arial */
   font-size: 4rem; /* Размер шрифта */
@@ -8,12 +8,14 @@ h1 {
   letter-spacing: 5px; /* Расстояние между буквами */
   margin-top: 50px; /* Отступ сверху */
 }
+
+/* Стили для фона страницы */
 body {
-  background-image: url('https://www.electronic-sirens.com/ru/wp-content/uploads/sites/8/2021/09/Yest-li-zvuk-v-kosmose-.jpg'); /* Ссылка на картинку */
+  background-image: url('https://www.electronic-sirens.com/ru/wp-content/uploads/sites/8/2021/09/Yest-li-zvuk-v-kosmose-.jpg'); /* Фон-изображение */
   background-size: cover; /* Изображение растягивается на весь экран */
   background-position: center center; /* Центрируем картинку */
   background-attachment: fixed; /* Фиксируем фон при прокрутке */
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif; /* Шрифт Arial */
+  margin: 0; /* Убираем стандартные отступы */
+  padding: 0; /* Убираем стандартные отступы */
 }
