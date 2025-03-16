@@ -1,45 +1,56 @@
-/* Убираем отступы и задаем фон */
+/* Основные стили */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   text-align: center;
-  background-image: url('Screenshot_15.jpg'); /* Фон */
+  background: url('./Screenshot_15.jpg') no-repeat center center fixed; /* Фон */
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
-/* Заголовок в центре */
+/* Заголовок */
 h1 {
-  color: black;  /* Черный цвет */
-  font-size: 3.5rem;  /* Размер шрифта больше */
-  margin-top: 50px; /* Отступ сверху */
+  color: black; /* Черный текст */
+  font-size: 4rem;
+  margin-top: 60px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
-/* Блок с текстом справа */
+/* Блок с информацией */
 .info-box {
-  width: 350px;
+  width: 400px;
   position: absolute;
-  top: 35%;
-  right: 30px;  /* Отступ справа */
+  top: 40%;
+  right: 50px;  /* Отступ справа */
   text-align: left;
-  background: rgba(255, 255, 255, 0.8); /* Белый фон с прозрачностью */
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Тень */
+  background: rgba(255, 255, 255, 0.85); /* Белый фон с легкой прозрачностью */
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Заголовок в блоке */
-.info-box h2 {
+/* Заголовки внутри блока */
+.info-box h2, .info-box h3 {
+  text-align: center;
   font-size: 1.8rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-/* Текст внутри блока */
+/* Основной текст */
 .info-box p {
   font-size: 1.2rem;
   margin: 10px 0;
   line-height: 1.5;
+}
+
+/* Кошельки */
+.wallet {
+  font-size: 1rem;
+  font-weight: bold;
+  word-break: break-all; /* Разрывает строку, если не помещается */
+  background: #f4f4f4;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
 }
