@@ -1,16 +1,16 @@
-/* Убираем отступы */
+/* Убираем отступы и задаем шрифт */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   text-align: center;
-  background-image: url('https://www.electronic-sirens.com/ru/wp-content/uploads/sites/8/2021/09/Yest-li-zvuk-v-kosmose-.jpg'); /* Фон */
+  background-image: url('Screenshot_15.png'); /* Фон */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-/* Заголовок по центру */
+/* Заголовок в центре */
 h1 {
   color: black;  /* Черный цвет текста */
   font-size: 3rem;  /* Размер шрифта */
@@ -25,9 +25,10 @@ h1 {
   top: 30%;
   right: 20px;  /* Отступ справа */
   text-align: right;
-  background: rgba(255, 255, 255, 0.7); /* Белый фон с прозрачностью */
+  background: rgba(255, 255, 255, 0.7); /* Полупрозрачный фон */
   padding: 15px;
   border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Тень */
 }
 
 .info-box p {
